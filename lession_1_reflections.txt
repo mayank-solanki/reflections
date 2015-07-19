@@ -1,0 +1,48 @@
+Reflections:
+1) How did viewing a diff between two versions help you spot the bug?
+Me: As files may be large in big projects it will difficult to find
+the diff manually. 
+You can just compare and easily figure out what's changed.
+It gives only the diff, so going through diff takes less time compared
+to reading a whole file.
+
+2) How could having easy access to entire history of a file make you more efficient programmer in the long time?
+Me: If I can have access to entire history of a file then it will be helpful for me to add or remove features that were implmented earlier.
+Suddenly I need to revert to older changes then I can just take changes
+from the older revision history. This will save me lots of time and 
+it wil be pretty difficult to recall the changes implemented long time
+ago. I can also compare any versions to check changes in my code.
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Me: 
+Pros:
+a) We can create logical commits if we are doing it manually.
+b) Logical commits will make sense while comparing.
+c) We can avoid uncomiled code.
+d) We can avoid unrelated content in commits.
+Cons:
+a) If we need to commit manually and if we forget to commit then 
+we may end up loosing useful stuff.
+
+4) Why do you think some version control systems, like git, allow
+saving multiple files in one commit, while others, like Google Docs, 
+treat each file separately?
+Me: Git allows to save multiple files in one commit, as the files
+are logically affecting each other. Single commmit of each file
+will result into un compiled code. Plus it makes sense to save single
+logical feature containing multiple files in single commit. Other 
+systems like Google Docs allows to save single file commit are meant
+for logically separate files. But it won't be good approach for code.
+
+5) How might version control make you more confident to make changes that could break something?
+Me: Yes, by using version control makes me more confident to make changes as at any time I can revert back to older versions if I break something. If somebody breaks my code then I can easily check it and
+correct it by going through older versions.
+
+6) Now that you have your workspace setup, what do you want to try using Git for?
+Me: As right now I haven't created any code base as such, I will use Git for version my reflections file.
+
+
+
+
+
+
