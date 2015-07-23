@@ -6,8 +6,19 @@ for handlng version change through git.
 
 2) How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-Working directory contains local content, repository contains the version controlled files
+Me: Working directory contains local content, repository contains the version controlled files
 which are committed. Staging area is between the working directory and the repository.
 It offers you an area where you can add files that you want to commit to the repository
-otherwise you may end up committing everything. It's like a local snapshot.
+otherwise you may end up comnmitting everything. It's like a local snapshot.
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+Me: We can check which files are modified by using git diff. If the file is added in staged 
+area then git diff will give difference between unstaged file. If we do git diff --staged then
+it will give difference between staging area and repository.
+
+4) What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+Me: When we want to add new exprerimental feature and we don't want to mess with working production
+code then we can go for creating another branch while keeping our master branch intact. This will
+also help us in separating master branch and experimental feature new branch history.
 
