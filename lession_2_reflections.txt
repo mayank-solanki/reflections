@@ -22,3 +22,9 @@ Me: When we want to add new exprerimental feature and we don't want to mess with
 code then we can go for creating another branch while keeping our master branch intact. This will
 also help us in separating master branch and experimental feature new branch history.
 
+5) How do the diagrams help you visualize the branch structure?
+Me: Diagrams tell the complete history of the branch structure, when the new branches were created or there
+are any unreachable commits. It also tells you about the reachable commits. 
+
+ 
+
