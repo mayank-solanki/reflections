@@ -26,5 +26,14 @@ also help us in separating master branch and experimental feature new branch his
 Me: Diagrams tell the complete history of the branch structure, when the new branches were created or there
 are any unreachable commits. It also tells you about the reachable commits. 
 
- 
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Me: When two branches are merged together then we get the commits of two branches in current checked out branch.
+By this we get changes of both first and second branch in the current checked out branch. We represent in the 
+diagram the way we do as it helps us in understanding at what commit other branches were created what commits 
+they have and how they are merged together after certain commit.
 
+6) What are the pros and cons of Git's automatic merging vs. always doing merges manuhen ally?
+Me: Pros: When there is huge amount of code then automatic merging helps a lot. You can't 
+merge huge amount of code manually all the time. Plus that code might not be written by you.
+Cons: Autmatic merging may lead to conflicts in situations when you have modifications in the same area.
+Then you need to manually check the conflicts and resolve it.
