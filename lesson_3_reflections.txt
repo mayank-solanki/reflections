@@ -11,3 +11,17 @@ Me: If we pull changes manually then we can prevent un wanted errors that may ha
 are working on same files, or you want to compile something and you don't want other changes
 to come in your build. Other synced changes might contain errors. 
 
+3) Describe the differences between forks, clones, and branches. When would you use one instead
+of another?
+Me: When you make copy of repository on Github which is hosted on Github, then its called forking.
+When you make copy of repository on local machine to local machine or Github to local machine then
+it is called Cloning. Branches are logical names or labels to commits. They only act on single
+repository. 
+If we don't want to pull code and just want to copy on Github itself then go for cloning. It might
+be also helpful when you don't have permisson to make changes to orignal repository. Then we can
+fork it and then clone it on our local machine, make changes and push the code to forked version.
+Clones are helpful when you want to work on your local machine for the code that's there on Github.
+Clones can be also done on local machine. By clone you can just make a copy, make changes and push
+the changes back.
+Branches work on single repository. This is helpful when you want to work on some experimental feature
+which may or may not part of final version and then later you can merge it. 
