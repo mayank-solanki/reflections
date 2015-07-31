@@ -4,3 +4,10 @@ and are working remotely from different places. If we will keep all our work loc
 only we will able to access the work other people can't collaborate on it. If we are working
 alone then local copy can be good option. But in this case also for eg we want to work from
 some different machine then it will be great if we have remote repository.
+
+2) Why might you want to always pull changes manually rather than having Git automatically stay
+up-to-date with your remote repository?
+Me: If we pull changes manually then we can prevent un wanted errors that may happen when you
+are working on same files, or you want to compile something and you don't want other changes
+to come in your build. Other synced changes might contain errors. 
+
