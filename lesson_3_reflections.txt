@@ -24,4 +24,13 @@ Clones are helpful when you want to work on your local machine for the code that
 Clones can be also done on local machine. By clone you can just make a copy, make changes and push
 the changes back.
 Branches work on single repository. This is helpful when you want to work on some experimental feature
-which may or may not part of final version and then later you can merge it. 
+which may or may not part of final version and then later you can merge it. 	
+
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+Me: When we have copy of last known state of the remote then it's beneficial in resolving conflicts that
+may occur when we are not in sync with remote and have commits locally. So, when we sync our remote using
+git fetch origin or say directly pull then it first updates the remote state and then we try to merge
+our local master and remote origin/master. It may auto merge or end up in conflict if changes are there
+at the same location. We can use git fetch command to update the origin state and then merge or we can 
+directly do git pull origin master.
+ 
