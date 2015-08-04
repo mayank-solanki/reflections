@@ -41,4 +41,14 @@ requests and collaborate with peers for code review and later we can merge the c
 master. Collaborating over emails will be harder because at times there can be huge changes and we can't
 see review related things at one place. It will be difficult for reviewer also for finding conflicts.
 
- 
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits
+does each approach have?
+Me: If we are developing a experimental feature or we want our changes to be reviewed by pears before including
+it in master then we will go for different branch. Master branch is the main branch, everyone will see it first
+and it has to be intact without errors. So, by making different branch we can avoid subtle errors that may occur
+while working on experimental features or our changes may contain errors that we want to be reviewed and implement
+review comments before commiting it to the master branch. We can approach for Master branch directly if we our
+100% sure what we are doing is right. If we do changes directly on master branch then it saves us from later house
+keeping tasks of merging and resolving conflicts. If we work on different branch then although there is overhead
+of merging and resolving conflicts but it saves us from errors that my occur in master branch and in any case we
+don't want that.  
