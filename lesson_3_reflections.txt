@@ -33,4 +33,12 @@ git fetch origin or say directly pull then it first updates the remote state and
 our local master and remote origin/master. It may auto merge or end up in conflict if changes are there
 at the same location. We can use git fetch command to update the origin state and then merge or we can 
 directly do git pull origin master.
+
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Me: If we don't have option of collaborating using Git or GitHub then probably we will be collaorating over
+e-mails by sending snippets of codes. Obviously doing it over GitHub will be easier as we can create pull
+requests and collaborate with peers for code review and later we can merge the changes without affecting
+master. Collaborating over emails will be harder because at times there can be huge changes and we can't
+see review related things at one place. It will be difficult for reviewer also for finding conflicts.
+
  
